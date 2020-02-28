@@ -30,25 +30,20 @@ import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
+import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave.js';
+import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
+import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
-import Comments from '@ckeditor/ckeditor5-comments/src/comments.js';
-import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
-import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
-import Mention from '@ckeditor/ckeditor5-mention/src/mention.js';
+import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
 import MediaEmbedToolbar from '@ckeditor/ckeditor5-media-embed/src/mediaembedtoolbar.js';
-import SpecialCharactersText from '@ckeditor/ckeditor5-special-characters/src/specialcharacterstext.js';
-import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters.js';
-import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials.js';
+import Mention from '@ckeditor/ckeditor5-mention/src/mention.js';
+import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
+import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat.js';
 import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript.js';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript.js';
-import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
-import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
-import TrackChanges from '@ckeditor/ckeditor5-track-changes/src/trackchanges.js';
-import Title from '@ckeditor/ckeditor5-heading/src/title.js';
-import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave.js';
-import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat.js';
+import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 
@@ -83,25 +78,20 @@ Editor.builtinPlugins = [
 	TableToolbar,
 	TodoList,
 	Underline,
+	Autosave,
+	Code,
 	FontBackgroundColor,
+	CodeBlock,
 	FontColor,
-	Comments,
-	ImageResize,
 	HorizontalLine,
-	PageBreak,
-	Mention,
+	ImageResize,
 	MediaEmbedToolbar,
-	SpecialCharactersText,
-	SpecialCharacters,
-	SpecialCharactersEssentials,
+	Mention,
+	PageBreak,
+	RemoveFormat,
 	Subscript,
 	Superscript,
-	TableProperties,
-	WordCount,
-	TrackChanges,
-	Title,
-	Autosave,
-	RemoveFormat,
+	TableCellProperties,
 	Essentials,
 	Paragraph
 ];

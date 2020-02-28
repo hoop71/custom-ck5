@@ -92,7 +92,6 @@
 						<strong>the culture</strong> of languages varies substantially and the language a person speaks is an essential element of daily life.
 					</p>
 				</div>
-				<div class="sidebar"></div>
 			</div></div>
 		</div>
 	</main>
@@ -113,8 +112,8 @@
 					items: [
 						'heading',
 						'|',
+						'CKFinder',
 						'fontSize',
-						'specialCharacters',
 						'fontFamily',
 						'|',
 						'bold',
@@ -124,12 +123,14 @@
 						'highlight',
 						'fontColor',
 						'fontBackgroundColor',
+						'codeBlock',
 						'removeFormat',
 						'subscript',
 						'superscript',
 						'|',
-						'alignment',
+						'pageBreak',
 						'|',
+						'alignment',
 						'numberedList',
 						'bulletedList',
 						'|',
@@ -144,12 +145,7 @@
 						'mediaEmbed',
 						'|',
 						'undo',
-						'redo',
-						'trackChanges',
-						'pageBreak',
-						'comment',
-						'horizontalLine',
-						'CKFinder'
+						'redo'
 					]
 				},
 				language: 'en',
@@ -165,13 +161,11 @@
 						'tableColumn',
 						'tableRow',
 						'mergeTableCells',
-						'tableProperties'
+						'tableCellProperties'
 					]
 				},
 				licenseKey: '',
-				sidebar: {
-				container: document.querySelector( '.sidebar' )
-			},
+				
 			} )
 			.then( editor => {
 				window.editor = editor;
